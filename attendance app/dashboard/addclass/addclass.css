@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-top: 60px !important;
+    padding-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#form_addclass {
+    margin: 0px auto;
+}
+
+.container h4 {
+    padding-left: 35px !important;
+}
+
+#addclassform {
+    margin: 0px auto;
+    margin-top: 40px;
+    padding: 10px;
+    height: 300px;
+}
+
+table tr td {
+    padding-left: 25px;
+}
+
+#btnaddclass button {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 40%;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #122A5C;
+    color: white;
+    border: none;
+}
+#btnaddclass button:hover {
+    transform: translateY(1px);
+}
+
+#assignCourse {
+    width: 220px;
+    border-radius: 3px;
+    height: 35px;
+}
